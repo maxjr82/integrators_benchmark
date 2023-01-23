@@ -1,0 +1,6 @@
+model: FitPES                  # Type of model used to calculate acceleration
+save_traj: trajectory.npz      # name of the output file to save the trajectory
+dt: 0.50                       # time step
+tmax: 30000                    # maximum simulation time
+integrator: 1                  # 0: "Euler", 1: "Verlet", 2: "Ruth-3", 3: "Ruth-4"
+                               # 4: "Yoshida-6", 5: "Yoshida-8", 6: "RungeKutta4"
